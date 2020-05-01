@@ -10,12 +10,14 @@
     "url": "https://github.com/dabroek/node-cache-manager-redis-store.git"
   },
   "scripts": {
-    "prepublish": "npm prune",
+    "prepublish": "yarn run snyk-protect && npm prune",
     "test": "jest --forceExit",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
-    "ioredis": "3.0.0-2"
+    "ioredis": "3.0.0-2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -30,5 +32,6 @@
   },
   "engines": {
     "node": ">=4.2.0"
-  }
+  },
+  "snyk": true
 }
