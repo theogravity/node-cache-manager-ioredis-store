@@ -1242,9 +1242,10 @@ invert-kv@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
 
-ioredis@3.0.0-2:
-  version "3.0.0-2"
-  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-3.0.0-2.tgz#30c84c34db57b60f066220893b946f77a96e9355"
+ioredis@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-3.0.0.tgz#ecbfd5e1e89df94f55723bb4d81761b183609a0d"
+  integrity sha1-7L/V4eid+U9Vcju02BdhsYNgmg0=
   dependencies:
     bluebird "^3.3.4"
     cluster-key-slot "^1.0.6"
